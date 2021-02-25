@@ -1,0 +1,17 @@
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+header{
+    background-color:blanchedalmond;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-top: 10px solid lightsalmon;
+    border-bottom: 10px solid lightsalmon;
+    margin: 0%;
+    border-left: 0px;
+}
