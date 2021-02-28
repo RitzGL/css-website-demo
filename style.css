@@ -1,17 +1,38 @@
-h1,
-h2,
-h3,
-p {
-  text-align: center;
+img {
+    display: block;
+    position:absolute;
+    align-self: center;
 }
 
-header{
+header {
+    text-align: left;
     background-color:blanchedalmond;
     position: fixed;
+    z-index: 2;
     top: 0;
     width: 100%;
     border-top: 10px solid lightsalmon;
     border-bottom: 10px solid lightsalmon;
     margin: 0%;
     border-left: 0px;
+}
+
+header h1{
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+
+header section{
+    float: right;  
+}
+
+header section ul li{
+    display: inline-block;
+    color: brown;
+}
+
+div {
+    text-align: center;
+    color: blue;
 }
