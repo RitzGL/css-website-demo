@@ -5,13 +5,16 @@ img {
 }
 
 header {
+    /*colour formatting/aesthetics*/
     background-color:blanchedalmond;
+    border-top: 10px solid lightsalmon;
+    border-bottom: 10px solid lightsalmon;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*positioning, spacing and display*/
     position: fixed;
     z-index: 2;
     top: 0;
-    width: 100%;
-    border-top: 10px solid lightsalmon;
-    border-bottom: 10px solid lightsalmon;
     margin: 0%;
     border-left: 0px;
     display: inline-block;
@@ -33,7 +36,23 @@ header h1{
 
 /*this displays elements of list inline relative to each other*/
 .links ul li{
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     padding: 30px;
 }
 
+footer{
+    /*colours and aesthetics*/
+    background-color:blanchedalmond;
+    border-top: 10px solid lightsalmon;
+    border-bottom: 10px solid lightsalmon;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*positioning and spacing*/
+    position:fixed;
+    bottom:0;
+}
+
+.page-bottom{
+    text-align: center;
+}
