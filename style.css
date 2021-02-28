@@ -18,20 +18,22 @@ header {
 }
 
 header h1{
+    padding: 10px;
     display: inline-block;
     text-align: left;
     position: relative;
     left: 20px;
 }
 
-
+/*this displays inline relative to h1*/
 .links{
     float:right;
     display: inline;
 }
 
+/*this displays elements of list inline relative to each other*/
 .links ul li{
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
 }
 
